@@ -1,0 +1,4 @@
+5. What did you observe, and how well did your program do? What, if anything, can you learn from this? Save your answer to this question (B5) in the file ’partB5.txt’.
+There could be only 2 possibilities, one is: number of votes for “high” equals to number of votes for “low”, the other one is every hypothesis votes for “high” or “low”. 
+That is because the algorithm: original hypothesis space is in even number, and there could be a virtual mirror between these hypotheses, meaning if there is a “high, low, low, low”, there must be a “low, high, high, high”, so for the same instance, if there could be more than one hypotheses, then half of these hypotheses support the real result, the other half against the real result. And the algorithm will eliminate those that against the real result.   
+
